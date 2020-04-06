@@ -1,0 +1,22 @@
+.title {
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  text-align: center;
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: bold;
+
+  color: var(--color-text-primary);
+  
+}
+.description {
+  margin-bottom: 1em;
+
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;  
+  line-height: 1.5em;
+
+  color: var(--color-text-secondary);
+}
