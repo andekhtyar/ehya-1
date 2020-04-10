@@ -1,4 +1,11 @@
 .theme {
   --color-text-primary: #1C3859;
   --color-text-secondary: rgba(28, 56, 89, 0.7);
+  --color-button-primary: #183B56;
+  --color-button-text-primary: #FEF6E7;
+  --color-background-primary: #FEF6E7;
+  --color-background-secondary: white;
+  --color-link-action: #2771DB;
+
+  --padding-side: 24px;
 }
