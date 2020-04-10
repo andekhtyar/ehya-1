@@ -1,14 +1,18 @@
+section {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
 .page {
   padding: 0;
   margin: 0;
 }
 .first-screen {
   padding: 0 var(--padding-side);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-top: 1em;
   position: relative;
   margin-bottom: 30px;
+  text-align: center;
 }
 .first-screen::before {
   content: '';
@@ -31,18 +35,52 @@
   z-index: 3;
 }
 .first-screen__company {
+  width: 100%;
   display: flex;
   z-index: 2;
 }
 .first-screen__logo img {
-  width: 130px;
-}
-.second-screen {
-  padding: 0 var(--padding-side);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--color-background-default);
-  position: relative;
+  width: 100%;
 }
 
+.second-screen {
+  padding: 0 var(--padding-side);
+  background-color: var(--color-background-default);
+  position: relative;
+  text-align: center;
+}
+
+.third-screen {
+  padding: 0 var(--padding-side);
+  background-color: var(--color-background-default);
+  position: relative;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .second-screen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+  }
+
+  .third-screen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+  }
+
+  .third-screen__cell:nth-child(1) {
+    grid-row: span 1;
+  }
+
+  .third-screen__cell:nth-child(2) {
+    grid-row: span 2;
+    order: -1;
+  }
+
+  .third-screen__cell:nth-child(3) {
+    grid-row: span 1;
+  }
+ 
+}

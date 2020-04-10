@@ -1,12 +1,12 @@
-.icon__size_s {
+.icon_size_s {
   width: 16px;
   height: 16px;
 }
-.icon__arrow_right {
+.icon_arrow_right {
   position: relative;
 }
 
-.icon__arrow_right::before {
+.icon_arrow_right::before {
  background-color: var(--color-link-action);
  height: 2px;
  position: absolute;
@@ -17,7 +17,7 @@
  transform: translateY(-50%);
 }
 
-.icon__arrow_right::after {
+.icon_arrow_right::after {
   border-right: 4px solid var(--color-link-action);
   border-top: 4px solid var(--color-link-action);
   content: '';

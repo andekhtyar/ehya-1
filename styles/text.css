@@ -1,8 +1,5 @@
 .title {
-  margin-top: 1em;
   margin-bottom: 0;
-
-  text-align: center;
   font-size: 28px;
   font-family: sans-serif;
   font-weight: bold;
@@ -13,8 +10,6 @@
 .subtitle {
   margin-top: 2em;
   margin-bottom: 0;
-
-  text-align: center;
   font-size: 24px;
   font-family: sans-serif;
   font-weight: bold;
@@ -24,8 +19,6 @@
 }
 .description {
   margin-bottom: 2em;
-
-  text-align: center;
   font-size: 16px;
   font-family: sans-serif;  
   line-height: 1.5em;

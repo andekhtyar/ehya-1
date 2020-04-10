@@ -88,14 +88,17 @@
   text-decoration: none;
 }
 
-.link__type_primary {
+.link_type_primary {
   font-weight: 600;
   font-size: 14px;
   color: var(--color-link-action);
 }
 
-.link__type_with-icon {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  grid-column-gap: 4px;
+.link_with-icon_right, .link_with-icon_left {
+  display: inline-flex;
+  align-items: center;
+}
+
+.link_with-icon_right .link__icon {
+  margin-left: 6px;
 }
