@@ -24,6 +24,7 @@ section {
   height: 70%;
   background-color: var(--color-background-secondary);
   z-index: -1;
+  /* Тут нак-то надо сделать тянучесть подложки, но я не понимаю, как */
 }
 .first-screen::after {
   content: '';
