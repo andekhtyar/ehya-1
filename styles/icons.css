@@ -1,3 +1,7 @@
+.icon {
+
+}
+
 .icon_size_s {
   width: 16px;
   height: 16px;
@@ -29,4 +33,8 @@
   transform: translateX(3px) rotate(45deg)
               scale(0.5);
               
+}
+
+.icon_pen{
+  fill: var(--color-text-secondary);
 }
